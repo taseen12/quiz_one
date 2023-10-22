@@ -1,0 +1,83 @@
+
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: flex-start;
+}
+.pink-box {
+    margin-top: 50px;
+    width: 100px; /* Change the width to a random value or fixed size you prefer */
+    height: 300px; /* Change the height to a random value or fixed size you prefer */
+    background-color: rgb(226, 160, 171);
+    
+    top: 50%; /* Change the top and left values to random positions as needed */
+    left: 50%;
+    
+}
+.container2 {
+    margin-top: 90px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: flex-start;
+}
+.about{
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.about2{
+    
+    padding-left: 50px;
+}
+.about h1{
+    color: rgb(97, 63, 68);
+}
+.about p{
+    color: rgb(216, 145, 156);
+}
+.about2 h2{
+    color: rgb(97, 63, 68);
+}
+.about2 p{
+    color: rgb(216, 145, 156);
+}
+.image-size {
+    width: 500px;
+    height: 300px;
+}
+.image-size2 {
+    width: 300px;
+    height: 250px;
+    border: 10px solid #b95d5d;
+    border-image: linear-gradient(to right, #a62525 50%, transparent 50%) 100% 1;
+    border-left: 10px solid #b95d5d;
+}
+
+.button-design {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a hand cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+
+.button-design:hover {
+    background-color: #2980b9; /* Button background color on hover */
+}
+.button-design2 {
+    background-color: wheat; /* Button background color */
+    color: rgb(55, 123, 218); /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a hand cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+
+.button-design2:hover {
+    background-color: #2980b9; /* Button background color on hover */
+}
